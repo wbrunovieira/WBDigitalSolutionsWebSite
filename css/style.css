@@ -1,19 +1,9 @@
 .container {
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   max-width: 100vw;
-}
-
-.title {
-  width: 500px;
-  height: 300px;
-  background: #fff;
-  padding-top: 200px;
-  font-size: 36px;
-  font-weight: bold;
 }
 
 .header {
@@ -49,6 +39,8 @@
   line-height: 19px;
   letter-spacing: 0.2em;
   display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -66,21 +58,39 @@ nav {
   margin-top: 20px;
 }
 
-.introducao {
-  width: 100%;
-  height: 380px;
-  background: url('../') no-repeat center;
-  background-size: cover;
-  margin-top: 92px;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 280px;
-  letter-spacing: 0.1em;
+.banner-text {
+  color: #1e1e1e;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
-.introducao h1 {
-  font-size: 36px;
+.texto-roxo {
+  color: #762990;
+}
+
+.botao-contate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 33px;
+  gap: 22px;
+  background: #79ad0e;
+  border-radius: 30px;
   color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
+}
+.iconsBanner {
+  display: flex;
+  max-width: 200px;
+  justify-content: space-between;
+  margin-top: 46px;
+  margin-bottom: 46px;
+}
+
+.imagem-banner {
+  margin-top: 146px;
 }
