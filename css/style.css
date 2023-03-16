@@ -58,6 +58,14 @@ nav {
   margin-top: 20px;
 }
 
+.line {
+  width: 1059px;
+  height: 0px;
+  left: 430px;
+  top: 127px;
+  border: 2px solid #762990;
+}
+
 .banner-text {
   color: #1e1e1e;
   font-size: 32px;
