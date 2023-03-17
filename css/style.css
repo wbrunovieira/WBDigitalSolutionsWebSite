@@ -109,6 +109,7 @@ nav {
   margin: 0 auto;
   max-width: 1060px;
   margin-top: 96px;
+  padding-bottom: 96px;
 }
 
 .apresentacao-titulo {
@@ -136,4 +137,64 @@ nav {
 .imagem-apresentacao {
   display: flex;
   align-items: center;
+}
+
+.clientes {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  max-width: 1060px;
+  margin-top: 96px;
+  padding-bottom: 96px;
+}
+
+.roberto {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.goa {
+  display: flex;
+}
+
+.titulo {
+  color: #000;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: 21px;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  padding-left: 48px;
+  letter-spacing: 0.2em;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulo {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: 21px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  padding-left: 48px;
+}
+
+p,
+ul,
+li {
+  color: #1e1e1e;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: regular;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.goa-texto,
+.roberto-texto {
+  padding-left: 24px;
 }
