@@ -66,7 +66,7 @@ nav {
   border: 2px solid #762990;
 }
 
-.banner-text {
+.banner-text-box {
   color: #1e1e1e;
   font-size: 32px;
   font-family: Inter;
@@ -74,6 +74,14 @@ nav {
   line-height: 48px;
   margin: 0 auto;
   margin-top: 150px;
+}
+.banner-text {
+  color: #1e1e1e;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0 auto;
 }
 
 .texto-roxo {
