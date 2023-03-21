@@ -285,3 +285,106 @@ li {
   position: relative;
   top: 40px;
 }
+
+footer {
+  background-color: #1e1e1e;
+  width: 1920px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 96px;
+  display: flex;
+}
+
+.logo-footer {
+  background-color: #fff;
+  width: 310px;
+  height: 119px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-center {
+  background-color: #762990;
+  width: 516px;
+  height: 351px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-right {
+  background-color: #fff;
+  width: 310px;
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  /* padding-left: 24px; */
+}
+
+.rede-social-footer {
+  color: #fff;
+
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: bold;
+
+  letter-spacing: 0.2em;
+  padding-bottom: 8px;
+}
+
+.line-footer {
+  border: 1.5px solid #fff;
+  width: 362px;
+}
+
+.box-social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 362px;
+
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.box-social-footer img {
+  padding-right: 48px;
+}
+
+.direitos {
+  color: #fff;
+
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: regular;
+
+  letter-spacing: 0.2em;
+  padding-bottom: 8px;
+}
+
+.what-mail {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 16px;
+
+  margin: 0 auto;
+}
+
+.what-mail img {
+  padding-right: 8px;
+}
+
+.what-mail span {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: regular;
+}
