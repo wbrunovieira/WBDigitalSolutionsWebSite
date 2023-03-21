@@ -206,3 +206,82 @@ li {
 .roberto-texto {
   padding-left: 24px;
 }
+
+.box-servicos {
+  display: flex;
+  flex-direction: row;
+  border: 8px solid #762990;
+  border-radius: 30px;
+  padding: 24px;
+  padding-top: 48px;
+}
+
+.box-servicos-1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+}
+
+.box-servicos-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+}
+
+.servicos-img {
+  display: flex;
+}
+
+.text-box-servicos {
+  flex: 1;
+  padding: 8px;
+}
+
+.leia {
+  color: #79ad0e;
+}
+
+.each-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-title {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: bold;
+  line-height: 21px;
+  margin: 0 auto;
+  letter-spacing: 0.2em;
+}
+
+.service-description {
+  color: #1e1e1e;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: regular;
+  line-height: 140%;
+  margin: 0 auto;
+}
+
+.servico {
+  background: #762990;
+
+  color: #fff;
+  border-radius: 30px;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: regular;
+  line-height: 140%;
+  letter-spacing: 0.2em;
+  padding: 20px;
+  width: auto;
+  height: 48px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  position: relative;
+  top: 40px;
+}
