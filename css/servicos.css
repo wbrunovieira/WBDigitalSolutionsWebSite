@@ -124,9 +124,65 @@ nav {
   padding-top: 24px;
 }
 
+.services-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 48px;
+  max-width: 1060px;
+}
+
+.service-line {
+  border: 1px solid #ffffff;
+  max-width: 600px;
+  margin: 16px 0;
+}
+
+.service-img {
+  padding: 8px;
+}
+
+.service-text {
+  padding-left: 16px;
+  padding: 24px;
+}
+
+.each-service-roxo {
+  background-color: #762990;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title-box {
+  font-size: 24px;
+  font-weight: regular;
+  color: #fff;
+  letter-spacing: 0.05em;
+  font-family: Inter;
+  padding-bottom: 8px;
+}
+
+.service-description-box {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 149.7%;
+  font-family: Inter;
+  /* or 24px */
+
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+
+.topo-rounded {
+  border-radius: 30px 30px 0px 0px;
+}
+
 footer {
   background-color: #1e1e1e;
-  width: 1920px;
+  max-width: 1920px;
   height: 350px;
   margin: 0 auto;
   display: flex;

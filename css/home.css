@@ -290,7 +290,7 @@ li {
 
 footer {
   background-color: #1e1e1e;
-  width: 1920px;
+  max-width: 1920px;
   height: 350px;
   margin: 0 auto;
   display: flex;
