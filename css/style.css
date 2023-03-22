@@ -41,6 +41,12 @@
   display: inline-block;
   justify-content: center;
   align-items: center;
+  transition: transform 0.2s;
+}
+
+.menu a:hover {
+  color: #762990 !important;
+  transform: scale(1.1);
 }
 
 nav {
@@ -82,10 +88,6 @@ nav {
   font-weight: bold;
   line-height: 48px;
   margin: 0 auto;
-}
-
-.texto-roxo {
-  color: #762990;
 }
 
 .botao-contate {
@@ -387,4 +389,8 @@ footer {
   font-size: 16px;
   font-family: Inter;
   font-weight: regular;
+}
+
+.texto-roxo {
+  color: #762990 !important;
 }
