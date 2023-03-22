@@ -139,9 +139,15 @@ nav {
   max-width: 600px;
   margin: 16px 0;
 }
-
+.service-line-roxo {
+  border: 1px solid #762990;
+  max-width: 600px;
+  margin: 16px 0;
+}
 .service-img {
   padding: 8px;
+
+  flex: 1;
 }
 
 .service-text {
@@ -156,7 +162,14 @@ nav {
   align-items: center;
 }
 
-.service-title-box {
+.each-service-branco {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title-box-branco {
   font-size: 24px;
   font-weight: regular;
   color: #fff;
@@ -165,7 +178,16 @@ nav {
   padding-bottom: 8px;
 }
 
-.service-description-box {
+.service-title-box-roxo {
+  font-size: 24px;
+  font-weight: regular;
+  color: #762990;
+  letter-spacing: 0.05em;
+  font-family: Inter;
+  padding-bottom: 8px;
+}
+
+.service-description-box-branco {
   font-weight: 400;
   font-size: 12px;
   line-height: 149.7%;
@@ -174,6 +196,17 @@ nav {
 
   letter-spacing: 0.2em;
   color: #fff;
+}
+
+.service-description-box-roxo {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 149.7%;
+  font-family: Inter;
+  /* or 24px */
+
+  letter-spacing: 0.2em;
+  color: #762990;
 }
 
 .topo-rounded {
