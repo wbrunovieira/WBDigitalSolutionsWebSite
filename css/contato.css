@@ -288,6 +288,42 @@ label {
   padding: 10px;
   border-radius: 10px;
 }
+.btn :hover {
+  filter: brightness(50%) !important;
+}
+
+.form-container {
+  display: flex;
+  max-width: 1920px;
+  background: linear-gradient(
+    119.16deg,
+    #762990 -5.12%,
+    rgba(118, 41, 144, 0.973958) 53.81%,
+    rgba(118, 41, 144, 0) 138.09%
+  );
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 30px;
+  max-width: 1062px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 form {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+label {
+  margin-bottom: -16px;
 }
