@@ -139,7 +139,7 @@ nav {
 footer {
   background-color: #1e1e1e;
   max-width: 1920px;
-  height: 350px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -160,7 +160,7 @@ footer {
 .box-center {
   background-color: #762990;
   width: 516px;
-  height: 351px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -288,7 +288,8 @@ label {
   padding: 10px;
   border-radius: 10px;
 }
-.btn :hover {
+
+.btn a:hover {
   filter: brightness(50%) !important;
 }
 
