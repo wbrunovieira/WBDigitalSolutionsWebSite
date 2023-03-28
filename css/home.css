@@ -127,6 +127,13 @@ nav {
   padding-bottom: 96px;
 }
 
+.text-apresentacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .apresentacao-titulo {
   color: #1e1e1e;
   font-size: 32px;
@@ -194,7 +201,7 @@ nav {
   font-weight: bold;
   line-height: 21px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  padding-bottom: 24px;
   padding-left: 48px;
 }
 
@@ -240,6 +247,10 @@ li {
 }
 
 .text-box-servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
   flex: 1;
   padding: 8px;
 }
