@@ -204,6 +204,15 @@ footer {
   margin-bottom: 4px;
 }
 
+.box-center a:hover {
+  filter: brightness(50%);
+}
+
+.link-footer :hover {
+  color: #762990;
+  font-weight: bold;
+}
+
 .box-social-footer img {
   padding-right: 48px;
 }
