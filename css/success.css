@@ -96,17 +96,14 @@ nav {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  font-size: 32px;
+  font-size: 48px;
   line-height: 77px;
-
-  transition: 0.6s;
-  font-family: Inter;
 
   display: inline-block;
   justify-content: center;
   align-items: center;
 
-  margin-top: 96px;
+  margin-top: 296px;
 }
 
 .hero-section {
