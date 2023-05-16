@@ -85,8 +85,9 @@
 
                     <h1 class="titulo">Contato</h1>
 
-                    <form action="./env_contatos.php" method="post">
+                    <form action="https://api.web3forms.com/submit" method="POST">
 
+                        <input type="hidden" name="access_key" value="a5cffe71-1582-47cd-8a74-c17bd79a918a">
 
                         <label for="name">Nome</label><br>
                         <input type="text" name="name" id="name" placeholder="Digite o seu nome aqui" required>
@@ -97,7 +98,7 @@
 
                         <label for="mensage">Mensagem</label><br>
                         <textarea type="text" name="mensage" id="message" placeholder="Digite a sua mensagem aqui" required></textarea>
-
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
                         <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
                     </form>
                     
