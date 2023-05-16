@@ -61,6 +61,7 @@ nav {
 
 .menu ul li {
   display: inline-block;
+  flex-direction: row;
   margin-left: 25px;
   margin-top: 20px;
 }
