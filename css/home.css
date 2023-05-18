@@ -1,33 +1,33 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   max-width: 1920px;
-  flex-direction: column;
 }
 
 .header {
   position: fixed;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: nowrap;
   top: 0;
   max-width: 1060px;
   background: #fff;
-  padding: 25px 200px;
+
   z-index: 10;
 
   margin: 0 auto;
   max-width: 1060px;
-  justify-content: center;
-  align-items: center;
 }
 
 .logo-menu {
   display: flex;
   max-width: 210px;
-  margin-top: 30px;
+  margin-top: 16px;
 }
 .menu ul li a {
   color: #1e1e1e;
@@ -37,7 +37,7 @@
   letter-spacing: 0.1em;
   font-size: 12px;
   line-height: 20px;
-  padding: 10px 10px;
+  padding: 8px 8px;
   transition: 0.6s;
   font-family: Inter;
   font-weight: bold;
@@ -55,8 +55,7 @@
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  /* justify-content: flex-start; */
-  /* align-items: space-between; */
+
   max-width: 1600px;
 }
 
@@ -73,6 +72,7 @@
 
 #menu-ul {
   display: flex;
+  flex: flex-end;
   max-width: 1000px;
 }
 
@@ -83,15 +83,17 @@
 .menu ul li {
   display: inline-block;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.line {
+.line-menu {
   width: 1059px;
+
   height: 0px;
   left: 430px;
-  top: 127px;
+  top: 10px;
   border: 2px solid #762990;
+  margin-top: 80px;
 }
 
 .hero-section-home {
@@ -100,6 +102,7 @@
   align-items: center;
   margin: 0 auto;
   max-width: 1060px;
+  margin-top: -90px;
 }
 
 .banner-text-box {
