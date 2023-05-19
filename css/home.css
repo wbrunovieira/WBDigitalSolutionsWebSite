@@ -317,6 +317,7 @@ li {
 }
 
 .servico {
+  display: flex;
   background: #762990;
 
   color: #fff;
@@ -334,7 +335,8 @@ li {
   align-items: center;
   margin-top: 96px;
   position: relative;
-  top: 40px;
+  top: 30px;
+  padding: 20px 20px 20px 20px;
 }
 
 footer {
