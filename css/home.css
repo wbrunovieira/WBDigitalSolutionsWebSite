@@ -354,7 +354,7 @@ footer {
 .logo-footer {
   background-color: #fff;
   width: 310px;
-  height: 119px;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,13 +378,22 @@ footer {
 .box-right {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+
   align-items: flex-start;
   justify-content: center;
 
   background-color: #fff;
-  width: 310px;
-  height: 119px;
+  width: auto;
+  height: 140px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 8px;
 }
 
 .rede-social-footer {
@@ -428,32 +437,28 @@ footer {
   padding-bottom: 8px;
 }
 
-.what-mail {
-  display: flex;
-
-  align-items: flex-start;
-  justify-content: center;
-
-  margin: 0 auto;
-  margin-bottom: 8px;
-}
-
-.what-mail img {
-  padding-right: 8px;
-}
-
 .link-footer :hover {
   color: #762990;
-  font-weight: bold;
-}
-
-.what-mail span {
-  color: #1e1e1e;
-  font-size: 16px;
-  font-family: Inter;
-  font-weight: regular;
 }
 
 .texto-roxo {
   color: #762990 !important;
+}
+
+.tels {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 8px;
+}
+
+.line-contact {
+  border: 1px solid #848484;
+  transform: rotate(-0.32deg);
+  width: 255px;
+}
+
+.tels img {
+  margin-top: 4px;
 }
