@@ -462,3 +462,138 @@ footer {
 .tels img {
   margin-top: 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 360px;
+    padding: 0 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  .logo-menu {
+    margin-top: 0;
+    margin: 0 auto;
+  }
+
+  .menu ul li a {
+    font-size: 11px;
+  }
+
+  .menu-logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    text-align: left;
+  }
+
+  .menu ul li {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+
+  .hero-section-home {
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .banner-text-box {
+    margin-top: 60px;
+  }
+
+  .botao-contate {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .apresentacao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .apresentacao-titulo,
+  .descricao-apresentacao {
+    padding-left: 0;
+  }
+
+  .clientes {
+    align-items: center;
+  }
+
+  .roberto,
+  .goa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .robertoimagem {
+    max-width: 300px;
+  }
+
+  .goaimagem {
+    max-width: 300px;
+  }
+
+  .titulo,
+  .subtitulo {
+    padding-left: 0;
+  }
+
+  .box-servicos {
+    flex-direction: column;
+    max-width: 380px;
+  }
+
+  .box-servicos-1,
+  .box-servicos-2 {
+    max-width: 100%;
+  }
+
+  .text-box-servicos {
+    padding: 10px;
+  }
+
+  .servico {
+    top: 0;
+    max-width: 300px;
+  }
+
+  .box-center {
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+  }
+
+  .tels {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tels a {
+    padding-top: 5px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer .logo-footer {
+    padding-bottom: 5px;
+  }
+
+  .box-right {
+    line-height: 15px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    font-size: 6px;
+    height: 200px;
+    align-items: center;
+  }
+}
