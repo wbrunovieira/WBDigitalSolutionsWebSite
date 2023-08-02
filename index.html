@@ -53,41 +53,52 @@
         <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/home.css">
+       
         <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+
+        
         
     </head>
 
 
     <body>
+       
         <div class="container">
+           
 
             <header class="header">
 
-                <div class="menu-logo">
+                    <div class="menu-logo">
 
-                    <div class="logo-menu">
-                        <a  href="index.html" >
-                            <img src="./assets/logo.svg" alt="logotipo">
-                        </a>
+                        <div class="logo-menu">
+                            <a  href="index.html" >
+                                <img src="./assets/logo.svg" alt="logotipo">
+                            </a>
+
+                        </div>
 
                     </div>
                     
-                    <nav class="menu">
-                        <div>
-                            <ul id="menu-ul">
-                                <li ><a class="texto-roxo" href="index.html">Home</a></li>
-                                <li ><a href="sistemas.html">Sistemas</a></li>
+                    <nav id="nav" class="menu">
+                        
+                            <ul id="menu-ul" role="menu">
+                                <li><a class="texto-roxo" href="index.html">Home</a></li>
+                                <li><a href="sistemas.html">Sistemas</a></li>
                                 <li><a href="servicos.html">Serviços </a></li>                            
                                 <li><a href="clients.html">Clientes</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contato.html">Contacto</a></li>
                             </ul>
-                        </div>
+                            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu-ul" aria-expanded="false">Menu
+                                <span id="hamburger"></span>
+                            </button>
+                            
                     </nav>
                     
-                </div>
+                  
                 
             </header>
+            
             <div class="line-menu"></div>     
             
            
@@ -384,6 +395,6 @@
         </footer> 
         
 
-      
+        <script src="./menu.js"></script>
     </body>
 </html>

@@ -1,34 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   margin: 0 auto;
   max-width: 1920px;
 }
 
-.header {
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  top: 0;
-  max-width: 1060px;
-  background: #fff;
-
-  z-index: 10;
-
-  margin: 0 auto;
-  max-width: 1060px;
-}
-
-.logo-menu {
-  display: flex;
-  max-width: 210px;
-  margin-top: 16px;
-}
 .menu ul li a {
   color: #1e1e1e;
   font-weight: bold;
@@ -37,54 +15,28 @@
   letter-spacing: 0.1em;
   font-size: 12px;
   line-height: 20px;
-  padding: 8px 8px;
+
   transition: 0.6s;
   font-family: Inter;
   font-weight: bold;
-  line-height: 19px;
+
   letter-spacing: 0.2em;
   display: inline-block;
-  margin-right: auto;
-
   transition: transform 0.2s;
-
-  max-width: 1800px;
-}
-
-.menu-logo {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  justify-content: flex-end;
-
-  max-width: 1600px;
 }
 
 .menu a:hover {
   color: #762990 !important;
-  transform: scale(1.1);
-}
-
-.menu {
-  text-align: right;
-  flex: 1;
-  flex-wrap: nowrap;
+  transform: scale(1.2);
 }
 
 #menu-ul {
   display: flex;
-  flex: flex-end;
-  max-width: 1000px;
+  gap: 20px;
 }
 
 #menu-ul li {
   display: inline;
-}
-
-.menu ul li {
-  display: inline-block;
-  margin-left: 25px;
-  margin-top: 10px;
 }
 
 .line-menu {
@@ -95,6 +47,34 @@
   top: 10px;
   border: 2px solid #762990;
   margin-top: 80px;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1060px;
+  background: #fff;
+  padding: 40px;
+  gap: 80px;
+
+  max-width: 1060px;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+.line-menu {
+  width: 1059px;
+
+  left: 430px;
+
+  border: 2px solid #762990;
+  margin-top: 130px;
 }
 
 .hero-section-home {
@@ -471,7 +451,7 @@ footer {
   }
 
   .header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 20px 0;
   }
@@ -496,16 +476,70 @@ footer {
     align-items: flex-start;
   }
 
-  .menu {
-    display: none; /* Oculta o menu por padrão na versão mobile */
+  #menu-ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    background: #fff;
+    z-index: 1000;
+    transition: 0.6s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  #nav.active #menu-ul {
+    display: flex;
     flex-direction: column;
-    position: fixed; /* Posiciona o menu fixo */
-    top: 0; /* Alinha o topo do menu com o topo da janela de visualização */
-    left: 0; /* Alinha o lado esquerdo do menu com o lado esquerdo da janela de visualização */
-    width: 100%; /* Faz o menu ter a largura total da janela de visualização */
-    height: 100%; /* Faz o menu ter a altura total da janela de visualização */
-    background: #fff; /* Adiciona um fundo para que o menu seja opaco */
-    z-index: 10; /* Ajusta o z-index se necessário para garantir que o menu fique no topo de outros elementos */
+    height: 100vh;
+    visibility: visible;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  #menu-ul a {
+    padding: 4px 4 px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+
+  #btn-mobile {
+    display: flex;
+    padding: 15px 15px;
+    border-radius: 15%;
+    font-family: Inter;
+    border: none;
+    background-color: #762990;
+    color: #fff;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  #hamburger {
+    border-top: 2px solid #fff;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.6s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
   }
 
   .menu ul li {
