@@ -55,6 +55,7 @@
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  justify-content: flex-end;
 
   max-width: 1600px;
 }
@@ -463,7 +464,7 @@ footer {
   margin-top: 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     max-width: 360px;
     padding: 0 20px;
@@ -478,10 +479,16 @@ footer {
   .logo-menu {
     margin-top: 0;
     margin: 0 auto;
+    height: 15px;
+    width: 50%;
   }
 
   .menu ul li a {
-    font-size: 11px;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 4px 4px;
+
+    max-width: 300px;
   }
 
   .menu-logo {
@@ -490,7 +497,15 @@ footer {
   }
 
   .menu {
-    text-align: left;
+    display: none; /* Oculta o menu por padrão na versão mobile */
+    flex-direction: column;
+    position: fixed; /* Posiciona o menu fixo */
+    top: 0; /* Alinha o topo do menu com o topo da janela de visualização */
+    left: 0; /* Alinha o lado esquerdo do menu com o lado esquerdo da janela de visualização */
+    width: 100%; /* Faz o menu ter a largura total da janela de visualização */
+    height: 100%; /* Faz o menu ter a altura total da janela de visualização */
+    background: #fff; /* Adiciona um fundo para que o menu seja opaco */
+    z-index: 10; /* Ajusta o z-index se necessário para garantir que o menu fique no topo de outros elementos */
   }
 
   .menu ul li {
@@ -501,15 +516,58 @@ footer {
   .hero-section-home {
     margin-top: 0;
     flex-direction: column;
+    max-width: 400px;
+  }
+
+  .line-menu {
+    max-width: 400px;
   }
 
   .banner-text-box {
-    margin-top: 60px;
+    max-height: 180px;
+    margin-top: 20px;
+  }
+
+  .banner-text {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 auto;
   }
 
   .botao-contate {
     width: 100%;
     max-width: 200px;
+  }
+
+  .imagem-banner img {
+    max-width: 400px;
+    margin-left: -45px;
+    margin-top: -100px;
+  }
+
+  .imagem-apresentacao {
+    display: none;
+  }
+
+  .apresentacao-titulo {
+    font-size: 20px;
+
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .descricao-apresentacao {
+    font-size: 12px;
+
+    line-height: 18px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
 
   .apresentacao {
@@ -532,11 +590,11 @@ footer {
     align-items: center;
   }
 
-  .robertoimagem {
+  .robertoimagem img {
     max-width: 300px;
   }
 
-  .goaimagem {
+  .goaimagem img {
     max-width: 300px;
   }
 
