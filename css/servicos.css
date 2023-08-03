@@ -176,7 +176,7 @@
 
 .service-title-box-branco {
   font-size: 24px;
-  font-weight: regular;
+  font-weight: 800;
   color: #fff;
   letter-spacing: 0.05em;
   font-family: Inter;
@@ -185,7 +185,7 @@
 
 .service-title-box-roxo {
   font-size: 24px;
-  font-weight: regular;
+  font-weight: 800;
   color: #762990;
   letter-spacing: 0.05em;
   font-family: Inter;
@@ -193,24 +193,22 @@
 }
 
 .service-description-box-branco {
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 450;
+  font-size: 12.5px;
   line-height: 149.7%;
   font-family: Inter;
   /* or 24px */
 
-  letter-spacing: 0.2em;
   color: #fff;
 }
 
 .service-description-box-roxo {
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 450;
+  font-size: 12.5px;
   line-height: 149.7%;
   font-family: Inter;
   /* or 24px */
 
-  letter-spacing: 0.2em;
   color: #762990;
 }
 
