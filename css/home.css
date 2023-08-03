@@ -673,6 +673,7 @@ footer {
 
   footer {
     flex-direction: column;
+    background-color: #fff;
   }
 
   footer .logo-footer {
@@ -681,7 +682,7 @@ footer {
 
   .box-right {
     line-height: 15px;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 4px;
     font-size: 6px;
