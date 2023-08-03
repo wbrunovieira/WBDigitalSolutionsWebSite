@@ -530,6 +530,15 @@ label {
 
   form {
     margin-bottom: 80px;
+    max-width: 300px;
+  }
+
+  input {
+    max-width: 300px;
+  }
+
+  textarea {
+    max-width: 300px;
   }
 
   .box-center {
