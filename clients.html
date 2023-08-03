@@ -58,6 +58,7 @@
     </head>
 
     <body>
+
         <div class="container">
 
             <header class="header">
@@ -70,23 +71,29 @@
                         </a>
 
                     </div>
-                    
-                    <nav class="menu">
-                        <div>
-                            <ul id="menu-ul">
-                                <li ><a href="index.html">Home</a></li>
-                                <li ><a href="sistemas.html">Sistemas</a></li>
-                                <li><a href="servicos.html">Serviços </a></li>                            
-                                <li><a class="texto-roxo" href="clients.html">Clientes</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contato.html">Contacto</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                    
+
                 </div>
                 
-            </header>
+                <nav id="nav" class="menu">
+                    
+                        <ul id="menu-ul">
+                            <li><a  href="index.html">Home</a></li>
+                            <li><a href="sistemas.html">Sistemas</a></li>
+                            <li><a  href="servicos.html">Serviços </a></li>                            
+                            <li><a class="texto-roxo" href="clients.html">Clientes</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contato.html">Contacto</a></li>
+                        </ul>
+                        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu-ul" aria-expanded="false">Menu
+                            <span id="hamburger"></span>
+                        </button>
+                        
+                </nav>
+                
+              
+            
+        </header>
+
             <div class="line-menu"></div> 
 
             <h1 class="titulo">Clientes</h1>
@@ -184,6 +191,6 @@
             </div>
 
         </footer> 
-      
+      <script src="./menu.js"></script>
     </body>
 </html>
