@@ -438,86 +438,62 @@ footer {
   }
 
   .titulo {
+    font-size: 16px;
+    line-height: 32px;
 
-    
- 
-  font-size: 16px;
-  line-height: 32px;
+    justify-content: center;
+    align-items: center;
 
-  
-
-  
-  justify-content: center;
-  align-items: center;
-
-  margin-top: 32px;
-  margin-bottom: 32px;
-
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
   .titulo-sistema {
+    font-size: 24px;
+    line-height: 149.7%;
 
-    
-  font-size: 24px;
-  line-height: 149.7%;
+    letter-spacing: 0.2em;
 
-  letter-spacing: 0.2em;
+    color: #762990;
 
-  color: #762990;
-
-  padding: 20px 0;
-
-
+    padding: 20px 0;
   }
-
-  
 
   .line-menu {
     max-width: 400px;
   }
 
-  
   .container-sis {
-    align-itens:center;
-    flex-direction:column;
+    align-itens: center;
+    flex-direction: column;
     max-width: 400px;
     margin-bottom: 72px;
   }
 
   .line-sistemas {
-    display:none;
+    display: none;
   }
-
-
-
 
   .container-sis img {
     max-width: 400px;
     margin-left: -45px;
-    
   }
 
   .box-description-sistemas {
-   
     flex-direction: row;
-    align-itens:center;
+    align-itens: center;
     padding: 10px;
-    
-  
+
     max-width: 400px;
     height: 300px;
-    
+
     top: 377px;
-  
-   
+
     scroll-behavior: auto;
     overflow-y: scroll;
     border: 2px solid #762990;
-    margin-top:20px;
+    margin-top: 20px;
   }
-
- 
-
 
   .description-sistemas {
     font-size: 12px;
@@ -528,16 +504,9 @@ footer {
     padding-left: 10px;
   }
 
- 
-
-
-
-
-  
   .box-center {
     width: 100%;
-    padding: 1px;
-    padding-top: 1px;
+    padding: 10px;
   }
 
   .tels {
@@ -552,7 +521,6 @@ footer {
   footer {
     flex-direction: column;
     background-color: #fff;
-    
   }
 
   footer .logo-footer {
@@ -568,3 +536,4 @@ footer {
     height: 300px;
     align-items: center;
   }
+}
